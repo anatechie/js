@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0; /*espaçamento interno*/
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+    color: #fff;
+}
+
+.container{
+    /* background-color: red; */
+    width: 90%;
+    /* max-width: 1100px; */
+    margin: 0 auto;
+    
+}
+
+.cabecalho{
+    background-color: #020671;
+    padding: 22px 0;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between; /*espaçamento entre eles(conteudo)*/
+    align-items: center;
+}
+
+.logo{
+    /* background-color: red; */
+    font-size: 32px;
+    color: #fff;
+    
+}
+
+.logo span{
+    color: #f97316;
+}
+
+.menu{
+    /* background-color: red; */
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s; /*tempo em q acontece*/
+}
+
+.menu a:hover{
+    color: #f97316;
+
+}
+
+.hero{
+    /* background-color: red; */
+    min-height: 90vh; /*tamanho min para a altura */
+    background: linear-gradient(rgba(2,6,23,0.75), rgba(2,6,23,0.95)), 
+    url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80'); /*0.75 opacidade*/
+    background-size: cover;
+    background-position:center;
+}
