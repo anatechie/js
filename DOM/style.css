@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px 20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    /*tamanho minimo da altura tela*/
+    min-height: 100vh;
+
+    box-sizing: border-box; 
+}
+
+.container{
+    /* background-color: red; */
+    width: 100%;
+    max-width: 750px;
+
+}
+
+.escondido{
+    display: none !important; /* da prioridade.*/
+
+}
+
+#secao-formulario{
+    background-color: #ffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0, 0.08);
+
+}
+
+h2{
+    color: #1a1a1a;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+
+}
+
